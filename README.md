@@ -1,0 +1,2 @@
+# BlogAssets
+Halo images storage.
