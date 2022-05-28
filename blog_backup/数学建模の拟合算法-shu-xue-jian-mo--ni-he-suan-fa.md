@@ -60,7 +60,7 @@ R_2 = SSR / SST
 
 打开：APP -> Curve Fitting
 
-![image-20210926152105774](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-69.png)
+![image-20210926152105774](https://blog.caowei.xyz/blog/Math-69.png)
 
 拟合方法说明：
 
@@ -75,4 +75,3 @@ R_2 = SSR / SST
 + Smoothing Spline：平滑逼近（翻译的不大恰当，不好意思）
 + Sum of Sin Functions：正弦曲线逼近，有8种类型，基础型是 a1*sin(b1*x + c1)
 + Weibull：只有一种，a*b*x^(b-1)*exp(-a*x^b)
-

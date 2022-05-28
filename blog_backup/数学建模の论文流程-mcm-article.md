@@ -161,7 +161,7 @@
 
 示例：
 
-![image-20211010104645630](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-42.png)
+![image-20211010104645630](https://blog.caowei.xyz/blog/Math-42.png)
 
 #### 5. 模型的建立
 
@@ -208,10 +208,8 @@
 
 注意参考文献的格式：
 
-![image-20211010152539583](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-43.png)
+![image-20211010152539583](https://blog.caowei.xyz/blog/Math-43.png)
 
 #### 9. 附件
 
 主要放Matlab程序、结果数据等
-
-

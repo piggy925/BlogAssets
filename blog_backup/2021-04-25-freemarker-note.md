@@ -13,7 +13,7 @@ FreeMarker被设计用来生成HTML Web页面，特别是基于MVC模式的应�
 
 虽然FreeMarker具有一些编程的能力，但通常由Java程序准备要显示的数据，由FreeMarker生成页面，通过模板显示准备的数据（如下图）
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Jw-17.png)
+![](https://blog.caowei.xyz/blog/Jw-17.png)
 
 FreeMarker的出现通常是为了替代JSP，通过FreeMarker可以使Java程序员专注于数据的处理，使前端程序员专注于数据的展示。
 
@@ -48,7 +48,7 @@ ${site}-${url}
 
 控制台输出：
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Jw-18.png)
+![](https://blog.caowei.xyz/blog/Jw-18.png)
 
 #### FTL取值
 
@@ -193,4 +193,4 @@ public class ListServlet extends HttpServlet {
 
 6. 浏览器访问页面显示如下
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Jw-19.png)
+![](https://blog.caowei.xyz/blog/Jw-19.png)

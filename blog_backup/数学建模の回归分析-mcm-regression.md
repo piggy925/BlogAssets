@@ -8,7 +8,7 @@
 
 #### 回归分析的分类
 
-![image-20211004201146588](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/mcm)
+![image-20211004201146588](https://blog.caowei.xyz/blog/mcm)
 
 #### 数据的分类
 
@@ -36,7 +36,7 @@
 
 #### 不同数据类型的处理方法
 
-![image-20211004202351280](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/mcm-8.png)
+![image-20211004202351280](https://blog.caowei.xyz/blog/mcm-8.png)
 
 #### 线性回归
 
@@ -72,7 +72,7 @@ summarize 变量1 变量2 ... 变量n
 
 输出：
 
-![image-20211005151609362](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-40.png)
+![image-20211005151609362](https://blog.caowei.xyz/blog/Math-40.png)
 
 2. 定性数据
 
@@ -85,7 +85,7 @@ tabulate 变量名,gen(A)
 
 输出：
 
-![image-20211005151912648](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-41.png)
+![image-20211005151912648](https://blog.caowei.xyz/blog/Math-41.png)
 
 示例代码：
 
@@ -203,7 +203,7 @@ regress y x1 x2 ... xk,robust
 estat vif
 ```
 
- <img src="https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/image-20211006140710099.png" alt="image-20211006140710099" style="zoom: 50%;" />
+ <img src="https://blog.caowei.xyz/blog/image-20211006140710099.png" alt="image-20211006140710099" style="zoom: 50%;" />
 
 ##### 多重共线性的处理方式
 
@@ -244,5 +244,3 @@ stepwise regress y x1 x2 ... xk, pr(#2)
 
 + 向前逐步回归和向后逐步回归的结果可能不同
 + 不要轻易使用逐步回归分析，因为剔除了自变量后很有可能会产生新的问题，例如内生性问题
-
-

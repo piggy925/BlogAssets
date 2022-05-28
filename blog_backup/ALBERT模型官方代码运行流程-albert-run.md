@@ -8,15 +8,15 @@
 
 2. 下载预训练好的模型与数据集（以GLUE为例）
 
-![image-20211004161127625](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/dl-4)
+![image-20211004161127625](https://blog.caowei.xyz/blog/dl-4)
 
 GLUE数据集下载地址：[GLUE Benchmark](https://gluebenchmark.com/tasks)
 
 3. 将模型放在项目中或项目外（后面参数配置会用到两者的**相对路径**）
 
-![image-20211004162538161](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/dl-6.png)
+![image-20211004162538161](https://blog.caowei.xyz/blog/dl-6.png)
 
-![image-20211004162901991](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/dl-7.png)
+![image-20211004162901991](https://blog.caowei.xyz/blog/dl-7.png)
 
 3. 在PyCharm中配置运行参数及参数说明（以基于MRPC数据集的分类任务为例）
 
@@ -74,10 +74,8 @@ GLUE数据集下载地址：[GLUE Benchmark](https://gluebenchmark.com/tasks)
 --train_batch_size=128
 ````
 
-![image-20211004163304766](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/dl-8.png)
+![image-20211004163304766](https://blog.caowei.xyz/blog/dl-8.png)
 
 #### 运行`run_classifier.py`
 
-![image-20211004195020026](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/dl-9.png)
-
-
+![image-20211004195020026](https://blog.caowei.xyz/blog/dl-9.png)

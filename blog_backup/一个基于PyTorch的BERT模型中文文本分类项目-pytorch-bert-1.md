@@ -56,7 +56,7 @@ python run.py --model bert
 
 1. FileNotFoundError
 
-![image-20211006190004163](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/dl-10.png)
+![image-20211006190004163](https://blog.caowei.xyz/blog/dl-10.png)
 
 解决方法：
 
@@ -64,9 +64,8 @@ python run.py --model bert
 
 再次运行，问题解决：
 
-![image-20211006193526018](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/dl-11.png)
+![image-20211006193526018](https://blog.caowei.xyz/blog/dl-11.png)
 
 #### 运行结果
 
-![image-20211007212122878](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/dl-13.png)
-
+![image-20211007212122878](https://blog.caowei.xyz/blog/dl-13.png)

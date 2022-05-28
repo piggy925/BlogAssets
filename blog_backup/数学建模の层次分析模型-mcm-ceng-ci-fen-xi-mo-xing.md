@@ -35,7 +35,7 @@
 
 可以先建立下面的权重表格：
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-2.png)
+![](https://blog.caowei.xyz/blog/Math-2.png)
 
 首先来确定五个指标的权重：
 
@@ -43,45 +43,45 @@
 
 所以往往采取每两个指标进行比较，进而推算出权重结果。
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-3.png)
+![](https://blog.caowei.xyz/blog/Math-3.png)
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-4.png)
+![](https://blog.caowei.xyz/blog/Math-4.png)
 
 分析比较后，将上面的两两对比表填写完，如下图：
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-5.png)
+![](https://blog.caowei.xyz/blog/Math-5.png)
 
 ### 判断矩阵（正互反矩阵）
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-6.png)
+![](https://blog.caowei.xyz/blog/Math-6.png)
 
 通过上面的表格得到了权重的判断矩阵，同理通过同样的方法可以得到景色、花费、居住、饮食、交通的判断矩阵。
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-7.png)
+![](https://blog.caowei.xyz/blog/Math-7.png)
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-8.png)
+![](https://blog.caowei.xyz/blog/Math-8.png)
 
 ### 一致矩阵
 
 若正互反矩阵的各行、各列之间成倍数关系即为一致矩阵。
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-11.png)
+![](https://blog.caowei.xyz/blog/Math-11.png)
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-9.png)
+![](https://blog.caowei.xyz/blog/Math-9.png)
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-10.png)
+![](https://blog.caowei.xyz/blog/Math-10.png)
 
 ### 一致性检验
 
 检验我们构造的判断矩阵和一致矩阵是否有太大的差别。
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-12.png)
+![](https://blog.caowei.xyz/blog/Math-12.png)
 
 通过比较矩阵的**最大**特征值与n相差的大不大即可检验矩阵与一致矩阵相差的大不大。
 
 ### 一致性检验的步骤
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-13.png)
+![](https://blog.caowei.xyz/blog/Math-13.png)
 
 CR>=0.1时的修正方法：
 
@@ -89,33 +89,33 @@ CR>=0.1时的修正方法：
 
 RI的求法：
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-14.png)
+![](https://blog.caowei.xyz/blog/Math-14.png)
 
 ### 一致矩阵计算权重
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-15.png)
+![](https://blog.caowei.xyz/blog/Math-15.png)
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-16.png)
+![](https://blog.caowei.xyz/blog/Math-16.png)
 
 ### 判断矩阵计算权重
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-17.png)
+![](https://blog.caowei.xyz/blog/Math-17.png)
 
 #### **方法一：算术平均法**
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-18.png)
+![](https://blog.caowei.xyz/blog/Math-18.png)
 
 使用数学符号描述：
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-19.png)
+![](https://blog.caowei.xyz/blog/Math-19.png)
 
 #### 方法二：几何平均法
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-20.png)
+![](https://blog.caowei.xyz/blog/Math-20.png)
 
 #### 方法三：特征值法（使用最多）
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-21.png)
+![](https://blog.caowei.xyz/blog/Math-21.png)
 
 假如我们的判断矩阵一致性可以接受，那么我们可以仿照一致矩阵权重的求法。
 第一步：求出矩阵A的最大特征值以及其对应的特征向量
@@ -125,15 +125,15 @@ RI的求法：
 
 1. 分析系统中各因素之间的关系，建立系统的递阶层次结构
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-34.png)
+![](https://blog.caowei.xyz/blog/Math-34.png)
 
 可使用亿图图示或[ProcessOn](https://www.processon.com/)等软件绘制。
 
 2. 对于同一层次的各元素关于上一层次中某一准则的重要性进行两两比较，构造两两比较矩阵（判断矩阵）
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-35.png)
+![](https://blog.caowei.xyz/blog/Math-35.png)
 
-![](https://cdn.jsdelivr.net/gh/piggy925/BlogAssets@main/uPic/Math-36.png)
+![](https://blog.caowei.xyz/blog/Math-36.png)
 
 3. 由判断矩阵计算被比较元素对于该准则的相对权重，并进行一致性检验（检验通过权重才能用）
 
@@ -146,4 +146,3 @@ RI的求法：
 1. 评价的决策层不能太多，太多的话n会很大（最大为15），判断矩阵和一致矩阵差异可能会很大。
 
 2. 如果决策层中指标的数据是已知的，往往不适合使用层次分析法。
-
