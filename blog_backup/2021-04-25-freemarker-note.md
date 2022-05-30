@@ -61,7 +61,7 @@ ${site}-${url}
 ```ftl
 //时间格式化
 ${date?string("yyyy-MM-dd")}
-//小数点后取两位    
+//小数点后取两位
 ${num?string("0.00")}
 ```
 
@@ -124,9 +124,9 @@ list迭代Map：
 
 #### FreeMarker整合Servlet
 
-1. 新建JavaWeb项目
+1\. 新建JavaWeb项目
 
-2. 添加FreeMarker jar包：[FreeMarker的Maven仓库链接](https://mvnrepository.com/artifact/org.freemarker/freemarker)
+2\. 添加FreeMarker jar包：[FreeMarker的Maven仓库链接](https://mvnrepository.com/artifact/org.freemarker/freemarker)
 
 ```xml
 <!-- Maven依赖 -->
@@ -137,7 +137,7 @@ list迭代Map：
 </dependency>
 ```
 
-3. 在web.xml中配置FreeMarker Servlet
+3\. 在web.xml中配置FreeMarker Servlet
 
 > FreeMarker Servlet的作用：
 >
@@ -159,9 +159,9 @@ list迭代Map：
 </servlet-mapping>
 ```
 
-4. 定义一个准备数据的servlet
+4\. 定义一个准备数据的servlet
 
-```java’
+```java
 @WebServlet("/list")
 public class ListServlet extends HttpServlet {
     @Override
@@ -176,7 +176,7 @@ public class ListServlet extends HttpServlet {
 }
 ```
 
-5. 定义接收并展示数据的ftl
+5\. 定义接收并展示数据的ftl
 
 ```ftl
 <#list employee_list as emp>
@@ -191,6 +191,6 @@ public class ListServlet extends HttpServlet {
 </#list>
 ```
 
-6. 浏览器访问页面显示如下
+6\. 浏览器访问页面显示如下
 
 ![](https://blog.caowei.xyz/blog/Jw-19.png)
